@@ -1,8 +1,8 @@
 r=int(input())
 n=int(input())
-r1=1
+r2=1
 for i in range(0,n):
-    r1=r1*r
+    r2=r2*r
 
-print(r1)
+print(r2)
     
