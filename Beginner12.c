@@ -11,8 +11,8 @@ while(n>0)
 	n=n/10;
 }
 if(temp==rev)
-printf("yes")
+printf("yes");
 else
-printf("no")
+printf("no");
 return 0;
 }
