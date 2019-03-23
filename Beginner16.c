@@ -15,7 +15,7 @@ scanf("%d",&q);
 	}
 	if(count==2)
 	{
-	printf("%d\n",i);
+	printf(" %d ",i);
 	}
     }
 return 0;
