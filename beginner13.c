@@ -25,10 +25,9 @@ cout<<"no";
 void main()
 {
 int i,f;
-clrscr();
 cin>>f;
 A a;
 a.prime(f);
-getch();
+return 0;
 }
 
