@@ -1,6 +1,5 @@
 #include <iostream>
-
-//using namespace std;
+using namespace std;
 class A
 {
 int i,count;
@@ -18,14 +17,14 @@ count++;
 }
 }
 if(count==2)
-cout<<"yes";
+std::cout<<"yes";
 else
-cout<<"no";
+std::cout<<"no";
 }
-void main()
+int main()
 {
 int i,f;
-cin>>f;
+std::cin>>f;
 A a;
 a.prime(f);
 return 0;
