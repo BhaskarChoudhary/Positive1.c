@@ -1,5 +1,6 @@
-a=[]
+a=[] 
 for i in input().split():
     a.append(i)
-
-print(max(a))
+a.sort(key=int)
+print(a)
+print(a[-1])
