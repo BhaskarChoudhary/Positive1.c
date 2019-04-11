@@ -7,7 +7,7 @@ int main()
     for (i = 1; i <= n; ++i)
     {
         printf("%d ", a);
-        nextTerm = a + b;
+        c = a + b;
         a = b;
         b = c;
     }
