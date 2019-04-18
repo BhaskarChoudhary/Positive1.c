@@ -1,3 +1,4 @@
+n=int(input())
 string=input()
 vowels=['a','e','i','o','u'] 
 for x in vowels: 
