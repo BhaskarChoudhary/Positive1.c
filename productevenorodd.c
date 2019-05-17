@@ -1,5 +1,5 @@
 #include <stdio.h>
-#bhaskr
+//bhaskr
 int main() {
 	// your code goes here
 	int n,m,s;
