@@ -4,7 +4,6 @@ d=[]
 p=[]
 for i in a:
     l.append(ord(i))
-print(l)
 f=len(l)
 i=0
 while(i<f):
@@ -20,4 +19,5 @@ for i in d:
 
 res=str("".join(p))
 print(res)
+    
     
