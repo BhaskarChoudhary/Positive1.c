@@ -6,7 +6,6 @@ l=[]
 z=Counter(a)
 for i in z.elements():
     b.append(i)
-print(b)
 f=len(b)
 for i in range(0,f):
     count=1
@@ -19,7 +18,6 @@ for i in range(0,f):
         i=count+1
     else:
         l.append(1)
-print(l)
 e=len(l)
 for i in range(0,e):
     if(l[i]==max(l)):
