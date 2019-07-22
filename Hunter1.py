@@ -11,6 +11,10 @@ for i in l:
         f=l.count(i)
         b.append(i)
 b = list(dict.fromkeys(b))
-for i in b:
-    print(i,end=" ")
+if(b==[]):
+    print("unique")
+else:
+    for i in b:
+        print(i,end=" ")
+
 
