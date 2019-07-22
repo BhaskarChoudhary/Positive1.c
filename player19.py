@@ -4,6 +4,8 @@ b=[]
 for i in range(2,a):
     if(a%i==0):
         l.append(i)
+if(l==[]):
+    print(a)
 for i in l:
     count=0
     for j in range(2,i):
