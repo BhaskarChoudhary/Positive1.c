@@ -1,4 +1,5 @@
 from collections import Counter
+n=int(input())
 a=[int(x) for x in input().split()]
 z=Counter(a)
 l=[]
@@ -12,3 +13,4 @@ for i in l:
 b = list(dict.fromkeys(b))
 for i in b:
     print(i,end=" ")
+
